@@ -1823,8 +1823,10 @@ CT_Mirrors()
 
     case "${org}" in
     GNU)
-        echo "https://ftpmirror.gnu.org/gnu/${project}"
-        echo "http://ftpmirror.gnu.org/gnu/${project}"
+        echo "https://ftp.jaist.ac.jp/pub/GNU/${project}"
+        echo "https://mirror.twds.com.tw/gnu/${project}"
+        echo "https://mirrors.nju.edu.cn/gnu/${project}"
+        echo "https://mirrors.ustc.edu.cn/gnu/${project}"
         echo "https://ftp.gnu.org/gnu/${project}"
         echo "http://ftp.gnu.org/gnu/${project}"
         echo "ftp://ftp.gnu.org/gnu/${project}"
